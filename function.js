@@ -55,7 +55,7 @@ const outcome = {
     "You Loose! paper beats rock": 0,
     "You Win! rock beats scissor": 1,
     "Draw! Same choice": 2
-}
+};
 
 let playerScore = 0;
 let computerScore = 0;
@@ -69,7 +69,7 @@ function game(){
         playerScore += 1;
     } else if (outcome[winnerLoser] === 0){
         computerScore += 1;
-    } 
+    }; 
     console.log('You: ' + playerScore + '|' + 'Computer:' + computerScore );
 
 }
