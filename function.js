@@ -6,20 +6,6 @@ function getComputerChoice()  {
     return randomString; 
 };
 
-// const ruleOne ={
-//     'rock': 0,
-//     'paper': 1
-// }
-// const ruleTwo = {
-//     'scissor': 0
-//     'rock': 1
-// }
-// const ruleThree = {
-//     'paper': 0,
-//     'scissor': 1
-// }
-
-// const rule = [ruleOne, ruleTwo, ruleThree]
 
 
 
@@ -60,6 +46,7 @@ const outcome = {
 let playerScore = 0;
 let computerScore = 0;
 
+// function keeps score from playRound game
 function game(){
     const playerSelection = prompt("Your choice: ");
     const computerSelection = getComputerChoice();
