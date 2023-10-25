@@ -4,9 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="function.js"></script>
+    <script src="function.js" defer></script>
 </head>
 <body>
- 
+    <div id="score">
+        <div class="score-container">
+            <div class="score-label">
+                <p>Player</p>
+            </div>
+            <div class="score-value">
+                <p id="player-score">0</p>
+            </div>
+        </div>
+        <div class="score-container">
+            <div class="score-label">
+                <p>Computer</p>
+            </div>
+            <div class="score-value">
+                <p id="computer-score">0</p>
+            </div>
+        </div>
+        <div class="score-container">
+            <div class="score-label">
+                <p>Draw</p>
+            </div>
+            <div class="score-value">
+                <p id="draw-score">0</p>
+            </div>
+        </div>
+    </div>
+    <div id="choices">
+        <button id="paper">Paper</button>
+        <button id="scissor">Scissor</button>
+        <button id="rock">Rock</button>
+    </div>
 </body>
 </html>
